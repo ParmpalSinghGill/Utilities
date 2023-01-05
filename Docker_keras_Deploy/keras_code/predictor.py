@@ -20,6 +20,7 @@ import pandas as pd
 
 prefix = "/opt/ml/"
 model_path = prefix+"model/"
+#Sagmaker upload the modelfiles at /opt/ml/model/
 
 
 # A singleton for holding the model. This simply loads the model and holds it.
