@@ -18,9 +18,9 @@ from keras import backend as K
 import flask,numpy as np
 import pandas as pd
 
-# prefix = "/opt/ml/"
-prefix = ""
-model_path = prefix
+prefix = "/opt/ml/"
+model_path = prefix+"model/"
+
 
 # A singleton for holding the model. This simply loads the model and holds it.
 # It has a predict function that does a prediction based on the model and the input data.
